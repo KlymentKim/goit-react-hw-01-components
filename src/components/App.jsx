@@ -1,7 +1,4 @@
 import Profile from "./Profile";
-import user
-
-
 
 export const App = () => {
   return (
