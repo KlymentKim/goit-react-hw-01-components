@@ -1,6 +1,8 @@
+  import '.Profile.css';
+
   function Profile() {
     return(
-    <div class="profile">
+    <div className={'container profile'}>
         <div class="description">
             <img
             src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
