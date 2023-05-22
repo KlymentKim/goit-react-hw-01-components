@@ -2,7 +2,7 @@
   import PropTypes from 'prop-types';
 
   const Profile = ({ username, tag,location, avatar, stats }) => {
-    return Profile.map((card) => {
+    // return Profile.map((card) => {
         return(
             <div className={css.profile}>
             <div className={css.description}>
@@ -27,11 +27,9 @@
                 </li>
             </ul>
             </div>
-        )
-    });
+        );
+    };
   
-   
-}
 export default Profile;
 
 
