@@ -2,18 +2,8 @@ import css from './Statistics.module.css';
 import propTypes from 'prop-types';
 
 const createColor = () => {
-  const color =
-    'rgba(' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    0.5 +
-    ')';
-  return color;
-};
+    return '#' + Math.random().toString(16).substr(-6);
+   };
 
 const Statistics = ({ title, stats }) => {
   return (

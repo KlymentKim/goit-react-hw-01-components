@@ -27,7 +27,7 @@ table {
     width: inherit;
     font-weight: 700;
     font-size: 15px;
-    color: #524a4d;
+    color: var(---color-basic-text);
     /* display: flex; */
     justify-content: center;
   }
