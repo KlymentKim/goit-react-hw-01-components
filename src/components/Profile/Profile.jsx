@@ -1,8 +1,7 @@
   import css from './Profile.module.css';
   import PropTypes from 'prop-types';
 
- export const Profile = ({ username, tag,location, avatar, stats }) => {
-    // return Profile.map((card) => {
+ const Profile = ({ username, tag,location, avatar, stats }) => {
         return(
             <div className={css.profile}>
             <div className={css.description}>
@@ -32,7 +31,7 @@
         );
     };
   
-// export default Profile;
+export default Profile;
 
 
 Profile.propTypes = {

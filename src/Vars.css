@@ -1,0 +1,6 @@
+:root {
+    --color-basic-text: #111111;
+    --color-box-shadow: #c6cccced;
+    --color-box-shadow-hover: #a1f5f5ed;
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  }
