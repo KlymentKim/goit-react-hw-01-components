@@ -12,7 +12,6 @@ const createColor = () => {
     ',' +
     0.5 +
     ')';
-
   return color;
 };
 
