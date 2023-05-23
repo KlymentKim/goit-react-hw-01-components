@@ -1,5 +1,6 @@
 :root {
     --color-basic-text: #111111;
+    --color-basic-table: #fff;
     --color-box-shadow: #c6cccced;
     --color-box-shadow-hover: #a1f5f5ed;
     --color-box-shadow-statistic-tr-hover:#086e36;

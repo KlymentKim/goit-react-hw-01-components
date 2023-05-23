@@ -2,9 +2,7 @@ import css from './FriendList.module.css';
 import PropTypes from 'prop-types';
 
 const FriendList = ({ friends }) => {
-  // console.log(friends);
-
-  return (
+   return (
     <div className={css.friends}>
       <ul className={css.friends__list}>
         {friends.map(({ avatar, name, isOnline, id }) => (

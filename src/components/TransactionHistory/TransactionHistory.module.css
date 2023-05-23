@@ -20,7 +20,7 @@ table {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 5px;
-    color: #524a4d;
+    color: var(---color-basic-text);
   }
   table td {
     padding: 10px;
@@ -36,6 +36,9 @@ table {
     display: flex;
     justify-content: space-around;
     border-bottom: solid 1px #c6cccce6;
+  }
+  table tr:first-child{
+   background-color: aqua;
   }
   table tr:not(:last-child) {
     margin-bottom: 5px;
